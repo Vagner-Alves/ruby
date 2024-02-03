@@ -1,17 +1,17 @@
 class Animal
-  def sleep
-    puts "ZZZzzzzZZZ"
-  end
+    def sleep
+        puts "ZZZzzzzZZZ"
+    end
 
-  def eat
-    puts "I'm eating"
-  end
+    def eat
+        puts "I'm eating"
+    end
 end
 
 class Cat < Animal
-  def cat_sound
-    puts "meeooow"
-  end
+    def cat_sound
+        puts "meeooow"
+    end
 end
 
 gato = Cat.new
