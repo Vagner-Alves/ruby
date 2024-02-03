@@ -13,3 +13,6 @@ class Cat
     puts "meeooow"
   end
 end
+
+gato = Cat.new
+gato.cat_sound
