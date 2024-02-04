@@ -11,7 +11,6 @@ class Pencil < Object
     end
 end
 
-
 class Keyboard < Object
 end
 
