@@ -26,6 +26,11 @@ pencil = Pencil.new
 painter = Painter.new
 keyboard = Keyboard.new
 
+puts "lápis"
 pencil.write
+puts ' '
+puts "Caneta"
 painter.write
+puts ' '
+puts "Teclado"
 keyboard.write
