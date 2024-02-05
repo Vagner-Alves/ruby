@@ -12,5 +12,8 @@ books.insert(0,"a revolução dos bichos", "a baleia e outros contos") # insert 
 books.insert(1,"Psicologia financeira")
 puts books
 
+
 puts "---------------"
 puts "quantidade de livros #{books.count}"
+puts "primeiro livro da lista:  #{books.first}"
+puts "último livro da lista: #{books.last}"
