@@ -21,3 +21,10 @@ puts "último livro da lista: #{books.last}"
 # pesquisar um livro ( elemento) na lista, retorna booleano
 
 puts books.include?("Trabalho focado")
+
+# deletar elemento da lista
+books.delete_at(0)
+# deletar o último elemento
+books.pop
+
+puts books
