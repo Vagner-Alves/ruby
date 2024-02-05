@@ -20,7 +20,6 @@ class Painter < Object
     end
 end
 
-
 pencil = Pencil.new
 painter = Painter.new
 keyboard = Keyboard.new

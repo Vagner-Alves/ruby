@@ -1,15 +1,15 @@
 books = []
 
-books.push("a ilha do conhecimento")
+books.push("a ilha do conhecimento") # adiciona o elemento no final da fila
 books.push("1984")
 books.push("Trabalho focado")
-
 
 puts books
 
 puts "   "
 
-books.insert(0,"a revolução dos bichos", "a baleia e outros contos")
+books.insert(0,"a revolução dos bichos", "a baleia e outros contos") # insert insere o elemento na posição que eu desejar
+books.insert(1,"Psicologia financeira")
 puts books
 
 puts "---------------"
