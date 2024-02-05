@@ -17,3 +17,7 @@ puts "---------------"
 puts "quantidade de livros #{books.count}"
 puts "primeiro livro da lista:  #{books.first}"
 puts "último livro da lista: #{books.last}"
+
+# pesquisar um livro ( elemento) na lista, retorna booleano
+
+puts books.include?("Trabalho focado")
