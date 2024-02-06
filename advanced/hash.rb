@@ -7,3 +7,6 @@ puts zoo
 
 puts "modificando o valor"
 puts zoo["hippos"] = 9
+
+puts "deletando valores (leons)"
+puts zoo.delete("leons")
