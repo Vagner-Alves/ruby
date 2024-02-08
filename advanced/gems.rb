@@ -18,3 +18,5 @@ def my_os
 end
 
 my_os
+
+puts "Meu PC é #{OS.bits}bits , possui #{OS.cpu_count} cores "
