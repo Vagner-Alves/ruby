@@ -17,6 +17,4 @@ def my_os
   end
 end
 
-my_os
-
-puts "Meu PC é #{OS.bits}bits , possui #{OS.cpu_count} cores "
+puts "Meu PC é #{OS.bits}bits , possui #{OS.cpu_count} cores, #{my_os} "
