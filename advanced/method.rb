@@ -13,7 +13,6 @@ def my_method(name, surname)
     puts "Hello! #{name}, #{surname}"
 end
 
-
 my_method("vagner","alves")
 
 # entrada do usuário
