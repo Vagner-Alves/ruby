@@ -20,3 +20,9 @@ puts "#{negatives}"
 
 # usando hashes
 num = {0 =>"zero", 1=>"um", 2 => "dois", 3 => "tres"}
+
+keys = num.select do |key, value|
+    key == 0
+end
+
+puts "keys #{keys}"
