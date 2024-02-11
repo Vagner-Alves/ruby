@@ -9,3 +9,12 @@ puts "#{num}"
 
 puts "\nArray modificado"
 puts "#{new_numbers}"
+
+# .map! modifica o conteudo do array
+
+num.map! do |y|
+    y * 2
+end
+
+puts "\n usando .map!"
+puts num
