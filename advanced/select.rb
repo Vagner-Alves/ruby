@@ -5,8 +5,15 @@ positives = numbers.select do |posi|
     posi > 0
 end
 
+negatives = numbers.select do |neg|
+    neg < 0
+end
+
 puts "\n number arrays"
 puts "#{numbers}"
 
 puts "\n positive numbers only"
 puts "#{positives}"
+
+puts "\n negative numbers only"
+puts "#{negatives}"
