@@ -17,3 +17,6 @@ puts "#{positives}"
 
 puts "\n negative numbers only"
 puts "#{negatives}"
+
+# usando hashes
+num = {0 =>"zero", 1=>"um", 2 => "dois", 3 => "tres"}
