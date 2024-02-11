@@ -4,8 +4,8 @@ new_numbers = num.map do| x |
     x * 2
 end
 
-puts "Array original"
-puts num
+puts "\n Array original"
+puts "#{num}"
 
-puts "Array modificado"
-puts new_numbers
+puts "\nArray modificado"
+puts "#{new_numbers}"
