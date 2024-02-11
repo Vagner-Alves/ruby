@@ -12,7 +12,6 @@ jogos.each do |key,value|
   puts "meus jogos:#{key}"
 end
 
-
 courses = {"aws devops modernization":"devops","github actions":"ci/cd", "ruby":"development",
 "kubernetes learning path":"containers", "Hashicorp terraform associate":"iac"}
 

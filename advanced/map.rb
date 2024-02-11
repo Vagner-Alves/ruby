@@ -1,0 +1,11 @@
+num = [12,4,2,8,18,3,5]
+
+new_numbers = num.map do| x |
+    x * 2
+end
+
+puts "Array original"
+puts num
+
+puts "Array modificado"
+puts new_numbers
