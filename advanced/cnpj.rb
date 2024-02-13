@@ -12,4 +12,4 @@ def check(number)
 end
 end
 
-check(cnpj)
+check(number)
