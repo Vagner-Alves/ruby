@@ -1,6 +1,9 @@
 require "cpf_cnpj"
 
 print "digite um cpf para verificar se é valído"
-cpf = gets.chomp
+number = gets.chomp
 
-puts CPF.valid?(cpf)
+cpf = CPF.new(number)
+if cpf.valid?
+  puts "o CPF  é valido"
+end
