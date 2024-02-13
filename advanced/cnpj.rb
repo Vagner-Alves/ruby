@@ -6,5 +6,5 @@ number = gets.chomp
 cnpj = CNPJ.new(number)
 
 if cnpj.valid?
-    puts "valido"
+    puts "o cnpj #{cnpj.formatted} é válido"
 end
