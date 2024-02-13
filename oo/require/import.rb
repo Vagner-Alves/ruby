@@ -1,2 +1,2 @@
-require "./animal.rb"
-require "./cat.rb"
+require_relative "./animal.rb"
+require_relative "./cat.rb"
