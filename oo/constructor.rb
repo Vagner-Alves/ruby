@@ -13,3 +13,6 @@ end
 
 person1 = Person.new('vagner',27)
 person1.show_attrs
+
+person2 = Person.new("Another person", 20)
+person2.show_attrs
