@@ -4,6 +4,10 @@
 class Pessoa
   def nome
         local = "é acessada somente nesse método"
-        print
+        print local
   end
 end
+#print local não vai funcionar! pois está foro do escopo
+pessoa = Pessoa.new
+pessoa.nome
+print local
