@@ -1,12 +1,12 @@
 class User
     def nome(nome)
-            @nome = nome
-            puts "usuário adicionado"
-            ola
+        @nome = nome
+        puts "usuário adicionado"
+        ola
     end
 
     def ola
-            puts "olá, #{@nome}"
+        puts "olá, #{@nome}"
     end
 
 end
