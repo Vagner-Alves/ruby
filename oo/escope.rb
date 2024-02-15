@@ -10,4 +10,3 @@ end
 #print local não vai funcionar! pois está foro do escopo
 pessoa = Pessoa.new
 pessoa.nome
-print local
