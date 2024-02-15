@@ -1,3 +1,4 @@
 class Product
-  attr_acessor :name, :price
+  attr_accessor :name, :price
+
 end
