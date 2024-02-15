@@ -8,7 +8,22 @@ class Pessoa
             puts nome
 
     end
+
+    def contador
+        $count = 0
+        puts $count
+    end
 end
 
+class Counter
+    def outro_cont
+        $count += 1
+        puts $count
+    end
+end
+
+
 pessoa = Pessoa.new
-pessoa.nome
+contador = Counter.new
+pessoa.contador
+contador.outro_cont
