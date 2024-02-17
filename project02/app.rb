@@ -18,4 +18,4 @@ items.push(product2)
 #Market.new(product2.name, product2.price).purchase
 #Market.new(product2.name, product2.price).cart
 
-Market.new(items).purchase
+Market.new(items).cart

@@ -1,10 +1,12 @@
 
 class Market
   def initialize(items)
-      @cart_items = items
+      @cart_items = []
       for item in items
             @name = item.name
             @price = item.price
+            @cart_items.push(@name)
+            @cart_items.push(@price)
       end
   end
 
@@ -13,8 +15,10 @@ class Market
   end
 
   def cart
-        puts "Product list"
-        puts "\n#{@name}"
-        puts "#{@price}"
+      puts "---------- items ----------------"
+      for item in @cart_items
+                puts item
+      end
+      puts "-----------end ----------------"
   end
 end
