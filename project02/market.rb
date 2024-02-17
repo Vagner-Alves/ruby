@@ -1,7 +1,7 @@
 
 class Market
   def initialize(items)
-
+      @cart_items = items
       for item in items
             @name = item.name
             @price = item.price
@@ -12,9 +12,9 @@ class Market
         puts "Voce comprou o produto: #{@name} por R$#{@price}"
   end
 
-  def cart(list)
+  def cart
         puts "Product list"
-        puts "#{@product}"
-        puts
+        puts "\n#{@name}"
+        puts "#{@price}"
   end
 end
