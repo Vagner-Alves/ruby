@@ -21,4 +21,11 @@ class Market
       end
       puts "-------------------------------"
   end
+
+  def total_purchase
+    puts "total de compras no carrinho"
+    for prices in @cart_items
+      puts price
+    end
+
 end
