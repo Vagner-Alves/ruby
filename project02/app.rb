@@ -19,4 +19,3 @@ items.push(product2)
 #Market.new(product2.name, product2.price).cart
 
 Market.new(items).cart
-Market.new(items).total_purchase
