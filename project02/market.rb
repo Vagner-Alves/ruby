@@ -19,6 +19,6 @@ class Market
       for item in @cart_items
                 puts item
       end
-      puts "----------- end ----------------"
+      puts "-------------------------------"
   end
 end
