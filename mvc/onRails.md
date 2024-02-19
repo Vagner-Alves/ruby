@@ -7,3 +7,8 @@ Ruby on Rails segue o padrão arquitetural MVC
 
 ## MVC
 MVC ( Model-View-Controller) é um padrão de arquitetural , solução geral para um problema que ocorre com frequencia dentro de um contexto no projeto de um software. Focado no reuso de código e a separação dos conceitos em 3 camadas interconectadas onde as interações do usuário ( front-end) é separada com a interação no banco de dados ( back-end).
+ ## Vantagens
+ 1. reusabilidade do código
+ 2. fácil indentificação de erros
+ 3. framework bastante popular
+ 
