@@ -4,3 +4,6 @@ framework: é um facilitador no desenvolvimento de diversas aplicações e, sem 
 poupa tempo e custos para quem o utiliza.De forma mais básica, é um conjunto de bibliotecas usadas para
 criar uma base, onde aplicações são construídas, um otimizador de recursos.
 Ruby on Rails segue o padrão arquitetural MVC
+
+## MVC
+MVC ( Model-View-Controller) é um padrão de arquitetural , solução geral para um problema que ocorre com frequencia dentro de um contexto no projeto de um software. Focado no reuso de código e a separação dos conceitos em 3 camadas interconectadas onde as interações do usuário ( front-end) é separada com a interação no banco de dados ( back-end).
