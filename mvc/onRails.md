@@ -14,4 +14,7 @@ MVC ( Model-View-Controller) é um padrão de arquitetural , solução geral par
 
  ### Model
  armazena dados , responde ao controller e localiza as regras e validações.
- 
+
+### Controller
+envia dados ao modelo, retorna a resposta ao view
+
