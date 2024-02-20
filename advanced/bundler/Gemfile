@@ -1,3 +1,4 @@
 # Gemfiles são usadas para empacotar as bibliotecas ( gems) que precisamos em um projeto
 source 'https://rubygems.org/'
 gem 'os'
+gem 'cpf_cnpj'
