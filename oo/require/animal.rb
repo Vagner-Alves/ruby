@@ -1,6 +1,7 @@
 class Animal
   attr_reader: specie
   attr_writer: specie
+  attr_acessor: name
   def initialize(name, specie)
     @name = name
     @specie = specie
