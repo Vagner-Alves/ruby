@@ -1,4 +1,6 @@
 class Animal
+  @name
+  @especie
   def sleep
       puts "ZZZzzzzZZZ"
   end
