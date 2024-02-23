@@ -1,5 +1,5 @@
 class Person
-    attr_acessor: name, age
+    #attr_acessor: name, age
     def initialize(name, age)
             @name = name
             @age = age
