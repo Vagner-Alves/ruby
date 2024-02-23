@@ -3,8 +3,8 @@
 def function(param, &block)
     @param = param
     #block.call para chamar o bloco
-    puts "#{block.call},#{param}"
+    block.call
 
 end
 
-function("Vagner"){puts "bem vindo!"}
+function("Vagner"){puts "bem vindo! #{@param}"}
