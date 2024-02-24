@@ -1,3 +1,4 @@
 funções lambda são bastantes similares aos blocos!
 as diferenças são que;
 lambda é iniciada com a palavra reservada "lambda"
+é possível passar mais de uma função lambda em um metódo.
