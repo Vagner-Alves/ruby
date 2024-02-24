@@ -1,0 +1,3 @@
+funções lambda são bastantes similares aos blocos!
+as diferenças são que;
+lambda é iniciada com a palavra reservada "lambda"
