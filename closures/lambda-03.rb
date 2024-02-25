@@ -7,3 +7,5 @@ end
 
 lambda1 = ->{puts "minha primeira função lambda"}
 lambda2 = ->{puts "minha segunda função lambda"}
+
+my_lambda(lambda1, lambda2)
