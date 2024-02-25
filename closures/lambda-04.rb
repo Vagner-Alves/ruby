@@ -14,3 +14,8 @@ puts sorted_numbers
 even_numbers = numbers.select {|number| number % 2 == 0}
 puts "números primos"
 puts even_numbers
+
+counter = 0
+num_counter = lambda {counter += 1| counter}
+puts num_counter.call
+puts num_counter.call
