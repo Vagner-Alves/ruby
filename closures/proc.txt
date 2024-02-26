@@ -1,0 +1,3 @@
+Bastante similar aos lambdas
+em ruby, lambda é uma Proc especial, não existe classe especifica para lambdas. procs e lambdas
+são formas de definição de blocos de código com algumas particularidades.
