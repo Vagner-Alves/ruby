@@ -20,7 +20,7 @@ Aqui estão alguns exemplos básicos de como usar regex em Ruby:
     end
 
 * 4. Modificadores: para corresponder a vários caracteres, podemos usar modificadores de padrão. Aqui estão alguns modificadores comuns
-    * + : corresponde a 1 ou mais ocorrencias do padrão;
-    * * : corresponde a 0 ou mais ocorrencias do padrão;
-    * ? : corresponde a 0 ou 1 ocorrencia do padrão;
-    * {3,5}: corresponde a 3 e 5 ocorrencias do padrão.
+     + : corresponde a 1 ou mais ocorrencias do padrão;
+     * : corresponde a 0 ou mais ocorrencias do padrão;
+     ? : corresponde a 0 ou 1 ocorrencia do padrão;
+     {3,5}: corresponde a 3 e 5 ocorrencias do padrão.
