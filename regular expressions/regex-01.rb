@@ -1,5 +1,5 @@
 def contains_vowel(str)
-    str =~ /[aeiou]/
+    puts str =~ /[aeiou]/
 end
 
 contains_vowel('banana')
