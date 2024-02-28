@@ -3,4 +3,4 @@
 print "digite uma string"
 str = gets.chomp
 
-Regexp.new(str)
+puts /by/ =~ /ruby/
