@@ -11,3 +11,10 @@ class ControleRemoto
             puts "desligando o aparelho"
     end
 end
+
+controle = ControleRemoto.new
+controle.ligar
+controle.desligar
+# aqui o method missing será ativado
+controle.avancar
+controle.retroceder
