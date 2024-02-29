@@ -1,4 +1,3 @@
 time = Time.now
-puts time
-puts time.year
-puts time.day
+
+puts "hoje é #{time.day} de #{time.month} de #{time.year}"
