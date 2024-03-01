@@ -33,7 +33,11 @@ end
 
 class Robot
 include Arms
+include Legs
 end
 
 robot = Robot.new
 robot.leftArm
+
+robot2 = Robot.new
+robot.rightLeg
