@@ -13,20 +13,27 @@ end
 module Legs
 include Printing
     def rightLeg
-            Printing "chute frontal"
+            text_printer "chute frontal"
     end
     def leftLeg
-            Printing "chute lateral"
+            text_printer "chute lateral"
     end
 end
 
 module Arms
 include Printing
   def rightArm
-        Printing "soco fraco"
+        text_printer "soco fraco"
   end
 
   def leftArm
-        Printing "soco forte"
+        text_printer "soco forte"
   end
 end
+
+class Robot
+include Arms
+end
+
+robot = Robot.new
+robot.leftArm
