@@ -13,5 +13,6 @@ module NormalText
     end
 end
 
-NormalText::puts "Olá, mundo!"
+
 puts "o resultado é"
+NormalText::puts "Olá, mundo!"
