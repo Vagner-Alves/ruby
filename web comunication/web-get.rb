@@ -1,7 +1,7 @@
 require "net/http"
 
-sample = Net::HTTP.get('https://example.com/','/index')
+sample = Net::HTTP.get('www.google.com','index')
 
-File.open('example.html','w') do |line|
+File.open('google.html','w') do |line|
     line.puts(sample)
 end
