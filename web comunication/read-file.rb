@@ -1,7 +1,7 @@
 puts "****** Minha Lista de Compras *********"
 
 filename = "market-list.txt"
-file = File.open(filename, 'r')
+file = File.open(filename,'r')
 
 file.each do |line|
     puts line
