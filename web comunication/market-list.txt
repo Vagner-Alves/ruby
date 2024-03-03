@@ -1,1 +1,7 @@
-Banana, leite, Ovo, Manteiga, Canela, Maca, Uva
+Banana
+leite 
+Ovo 
+Manteiga 
+Canela 
+Maca 
+Uva
